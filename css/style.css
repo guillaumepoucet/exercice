@@ -1,0 +1,71 @@
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: cooper-black-std, serif !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    font-size: 28px !important;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h2,
+select>option,
+nav li,
+.test-card,
+.city-card,
+.city-btn,
+footer {
+    font-family: 'source-sans-pro', Arial, Helvetica, sans-serif !important;
+}
+
+nav li {
+    font-weight: bold;
+}
+
+nav li {
+    font-size: 17px !important;
+    letter-spacing: 0.03em !important;
+    line-height: 1.3em;
+}
+
+button {
+    border: none !important;
+    font-size: 27px !important;
+}
+
+h2 i {
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+
+
+@media (min-width: 576px) {
+    .contact-btn {
+        border: 2px solid white;
+        border-radius: 5px;
+    }
+    .carousel-item {
+        background-position: center;
+        background-size: cover;
+        height: 590px;
+    }
+    .carousel1 {
+        background-image: url(../assets/img/index-cover.jpg);
+    }
+    .carousel2 {
+        background-image: url(../assets/img/destination_cover.jpg);
+    }
+    .carousel3 {
+        background-image: url(../assets/img/destinations_parallax.jpg);
+        background-position: bottom;
+    }
+    .carousel-item img {
+        display: none !important;
+    }
+}

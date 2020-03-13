@@ -1,0 +1,35 @@
+nav,
+.custom-select,
+.city-btn {
+    background-color: #FF7550 !important;
+}
+
+footer,
+.city-card .price,
+#choose_us i {
+    background-color: #2F343A !important;
+}
+
+body {
+    color: #2F343A !important;
+}
+
+nav,
+nav a,
+nav span,
+nav button,
+.custom-select,
+footer,
+.carousel,
+.city-btn,
+.city-card,
+#choose_us i,
+h3 {
+    color: white !important;
+}
+
+footer i,
+footer span,
+h2 {
+    color: #FF7550 !important;
+}
