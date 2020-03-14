@@ -16,9 +16,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="css/reset.css">
     <!-- Own CSS -->
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/color.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <!-- Fontawesome -->
     <script src="https://kit.fontawesome.com/839df3b8b1.js"></script>
@@ -46,7 +48,7 @@
                         <a class="nav-link contact-btn" href="#">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <span class="nav-link"><i class="fas fa-phone-alt"></i>03.24.03.04.05</span>
+                        <span class="nav-link"><i class="fas fa-phone-alt mr-2"></i>03.24.03.04.05</span>
                     </li>
                 </ul>
             </div>
@@ -93,8 +95,72 @@
     </div>
 
     <div class="container">
-        <h2 class="col mt-3">Meilleures destinations<i class="fas fa-chevron-right ml-2"></i></h2>
+        <h2 class="col my-4">Meilleures destinations<i class="fas fa-chevron-right ml-2"></i></h2>
+        <div class="row">
+            <div class="col-10 mb-3 mx-auto city-card cc1 d-flex align-items-end justify-content-between">
+                <p>Londres</p>
+                <p class="price">€€€</p>
+            </div>
+            <div class="col-10 mb-3 mx-auto city-card cc1 d-flex align-items-end justify-content-between">
+                <p>Londres</p>
+                <p class="price">€€€</p>
+            </div>
+            <div class="col-10 mb-3 mx-auto city-card cc1 d-flex align-items-end justify-content-between">
+                <p>Londres</p>
+                <p class="price">€€€</p>
+            </div>
+        </div>
     </div>
+
+    <div class="container choose-us">
+        <h2 class="col my-4">Pourquoi nous choisir<i class="fas fa-chevron-right ml-2"></i></h2>
+        <div class="row justify-content-around text-center">
+            <div class="col-10">
+                <i class="fa fas fa-users"></i>
+                <p class="my-4">Un réseau d'experts</p>
+            </div>
+            <div class="col-10">
+                <i class="fa fas fa-map-marker-alt"></i>
+                <p class="my-4">Plein de destinations</p>
+            </div>
+            <div class="col-10">
+                <i class="fa fas fa-phone-alt"></i>
+                <p class="my-4">Disponible 7j/7</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container py-4">
+        <div class="row">
+            <div class="col-6">
+                <div class="d-flex align-items-center my-2">
+                    <i class="fab fa-twitter"></i>
+                    <p class="m">Twitter</p>
+                </div>
+                <div class="d-flex align-items-center my-2">
+                    <i class="fab fa-facebook-f"></i>
+                    <p class="">Facebook</p>
+                </div>
+                <div class="d-flex align-items-center my-2">
+                    <i class="fab fa-instagram"></i>
+                    <p class="">Instagram</p>
+                </div>
+            </div>
+            <div class="col-6 text-right font-weight-bold">
+                <a href="" class="d-block my-2">Accueil</a>
+                <a href="" class="d-block my-2">Destinations</a>
+                <a href="" class="d-block my-2">Contact</a>
+            </div>
+            <div class="col text-center my-4">
+                <p class="mb-2"><span>Simplon Voyages</span></p>
+                <p>Adresse 1<br>CP Ville<br>France</p>
+            </div>
+        </div>
+        <div class="row flex-column text-center">
+            <p class="font-weight-bold mb-2">Mentions légales</p>
+            <p>Copyright <span>2020 Simplon</span></p>
+        </div>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

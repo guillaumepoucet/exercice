@@ -6,7 +6,7 @@ nav,
 
 footer,
 .city-card .price,
-#choose_us i {
+.choose-us .fa {
     background-color: #2F343A !important;
 }
 
@@ -20,10 +20,11 @@ nav span,
 nav button,
 .custom-select,
 footer,
+footer a,
 .carousel,
 .city-btn,
 .city-card,
-#choose_us i,
+.choose-us .fa,
 h3 {
     color: white !important;
 }
