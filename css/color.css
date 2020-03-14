@@ -5,7 +5,7 @@ nav,
 }
 
 footer,
-.city-card .price,
+.card .price,
 .choose-us .fa {
     background-color: #2F343A !important;
 }
@@ -23,7 +23,7 @@ footer,
 footer a,
 .carousel,
 .city-btn,
-.city-card,
+.card,
 .choose-us .fa,
 h3 {
     color: white !important;

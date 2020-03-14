@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 17px;
+    letter-spacing: 0.02em;
 }
 
 h1 {
@@ -11,7 +12,7 @@ h1 {
 }
 
 h2,
-.city-card,
+.card,
 footer span {
     font-weight: 600;
 }
@@ -47,30 +48,50 @@ button {
 }
 
 h2 i {
-    font-size: 14px;
+    font-size: 14pxd;
 }
 
-.city-card {
+.card {
     background-position: center;
     background-size: cover;
     height: 170px;
-    text-transform: uppercase !important;
-    position: relative;
+    border: none;
+    border-radius: 0px;
     /* to position the price */
+    position: relative;
 }
 
-.city-card p {
-    padding-bottom: 10px;
+.card p {
+    padding: 10px;
+    position: absolute;
+    bottom: 0px;
 }
 
-.city-card .price {
+.card .price {
     padding: 10px 15px;
     position: absolute;
     right: 0px;
 }
 
 .cc1 {
-    background-image: url(../assets/img/city/london/sky-sunset-view-blue-sky-34609.jpg);
+    background-image: url(../assets/img/city/london/big-ben-bridge-castle-city-460672.jpg);
+}
+
+.cc2 {
+    background-image: url(../assets/img/index-cover.jpg);
+}
+
+.cc3 {
+    background-image: url(../assets/img/destination_cover.jpg);
+}
+
+.parallax {
+    background-image: url(../assets/img/index_parallax.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 260px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .choose-us .fa {
@@ -97,7 +118,7 @@ footer {
     line-height: 1.25em;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
     .contact-btn {
         border: 2px solid white;
         border-radius: 5px;
@@ -106,7 +127,7 @@ footer {
     .carousel-item {
         background-position: center;
         background-size: cover;
-        height: 590px;
+        height: 400px;
     }
 
     .carousel1 {
@@ -124,5 +145,26 @@ footer {
 
     .carousel-item img {
         display: none !important;
+    }
+
+    .position {
+        position: relative;
+    }
+
+    .position>div {
+        position: absolute;
+        bottom: 5px;
+        right: -15px;
+    }
+
+    .card {
+        height: 140px;
+    }
+}
+
+@media (min-width: 992px) {
+    .contact-btn {
+        border: 2px solid white;
+        border-radius: 5px;
     }
 }

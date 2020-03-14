@@ -83,82 +83,138 @@
     </div>
 
     <div class="container mt-4">
-        <div class="col">
-            <select class="custom-select" id="destination" required>
-                <option selected disabled value="">Votre destination</option>
-                <option>Londres</option>
-                <option>...</option>
-                <option>...</option>
-                <option>...</option>
-            </select>
+        <div class="position">
+            <div class="col col-sm-4 offset-sm-8">
+                <select class="custom-select" id="destination" required>
+                    <option selected disabled value="">Votre destination</option>
+                    <option>Londres</option>
+                    <option>...</option>
+                    <option>...</option>
+                    <option>...</option>
+                </select>
+            </div>
         </div>
     </div>
 
-    <div class="container">
-        <h2 class="col my-4">Meilleures destinations<i class="fas fa-chevron-right ml-2"></i></h2>
-        <div class="row">
-            <div class="col-10 mb-3 mx-auto city-card cc1 d-flex align-items-end justify-content-between">
-                <p>Londres</p>
-                <p class="price">€€€</p>
+    <div class="container mt-sm-5">
+        <h2 class="my-4">Meilleures destinations<i class="fas fa-chevron-right ml-2"></i></h2>
+        <div class="card-deck">
+            <div class="card cc1">
+                <div class="">
+                    <p>Londres</p>
+                    <p class="price">€€€</p>
+                </div>
             </div>
-            <div class="col-10 mb-3 mx-auto city-card cc1 d-flex align-items-end justify-content-between">
-                <p>Londres</p>
-                <p class="price">€€€</p>
+            <div class="card cc2">
+                <div class="">
+                    <p>Kyoto</p>
+                    <p class="price">€€€</p>
+                </div>
             </div>
-            <div class="col-10 mb-3 mx-auto city-card cc1 d-flex align-items-end justify-content-between">
-                <p>Londres</p>
-                <p class="price">€€€</p>
+            <div class="card cc3">
+                <div class="">
+                    <p>New-York</p>
+                    <p class="price">€€€</p>
+                </div>
             </div>
         </div>
     </div>
+
+    <div class="container mt-sm-5 d-none d-sm-block">
+        <h2 class="my-4">Destinations à la mode<i class="fas fa-chevron-right ml-2"></i></h2>
+        <div class="card-deck">
+            <div class="card cc1 mb-sm-5">
+                <div class="">
+                    <p>Londres</p>
+                    <p class="price">€€€</p>
+                </div>
+            </div>
+            <div class="card cc2">
+                <div class="">
+                    <p>Kyoto</p>
+                    <p class="price">€€€</p>
+                </div>
+            </div>
+            <div class="card cc3">
+                <div class="">
+                    <p>New-York</p>
+                    <p class="price">€€€</p>
+                </div>
+            </div>
+        </div>
+        <div class="card-deck">
+            <div class="card cc1">
+                <div class="">
+                    <p>Londres</p>
+                    <p class="price">€€€</p>
+                </div>
+            </div>
+            <div class="card cc2">
+                <div class="">
+                    <p>Kyoto</p>
+                    <p class="price">€€€</p>
+                </div>
+            </div>
+            <div class="card cc3">
+                <div class="">
+                    <p>New-York</p>
+                    <p class="price">€€€</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="parallax my-sm-5"></div>
 
     <div class="container choose-us">
-        <h2 class="col my-4">Pourquoi nous choisir<i class="fas fa-chevron-right ml-2"></i></h2>
-        <div class="row justify-content-around text-center">
-            <div class="col-10">
+        <h2 class="my-4 mb-sm-5">Pourquoi nous choisir<i class="fas fa-chevron-right ml-2"></i></h2>
+        <div class="row justify-content-around text-center mb-sm-4">
+            <div class="col-10 col-sm-4">
                 <i class="fa fas fa-users"></i>
                 <p class="my-4">Un réseau d'experts</p>
             </div>
-            <div class="col-10">
+            <div class="col-10 col-sm-4">
                 <i class="fa fas fa-map-marker-alt"></i>
                 <p class="my-4">Plein de destinations</p>
             </div>
-            <div class="col-10">
+            <div class="col-10 col-sm-4">
                 <i class="fa fas fa-phone-alt"></i>
                 <p class="my-4">Disponible 7j/7</p>
             </div>
         </div>
     </div>
 
-    <footer class="container py-4">
-        <div class="row">
-            <div class="col-6">
-                <div class="d-flex align-items-center my-2">
-                    <i class="fab fa-twitter"></i>
-                    <p class="m">Twitter</p>
+    <footer class="py-4 py-sm-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-sm-4">
+                    <div class="d-flex align-items-center my-2">
+                        <i class="fab fa-twitter"></i>
+                        <p class="m">Twitter</p>
+                    </div>
+                    <div class="d-flex align-items-center my-2">
+                        <i class="fab fa-facebook-f"></i>
+                        <p class="">Facebook</p>
+                    </div>
+                    <div class="d-flex align-items-center my-2">
+                        <i class="fab fa-instagram"></i>
+                        <p class="">Instagram</p>
+                    </div>
                 </div>
-                <div class="d-flex align-items-center my-2">
-                    <i class="fab fa-facebook-f"></i>
-                    <p class="">Facebook</p>
+                <div class="col-6 col-sm-4 text-right text-sm-center font-weight-bold">
+                    <a href="" class="d-block my-2">Accueil</a>
+                    <a href="" class="d-block my-2">Destinations</a>
+                    <a href="" class="d-block my-2">Contact</a>
                 </div>
-                <div class="d-flex align-items-center my-2">
-                    <i class="fab fa-instagram"></i>
-                    <p class="">Instagram</p>
+                <div class="col col-sm-4 text-center text-sm-right my-4 my-sm-1">
+                    <p class="mb-2 mb-sm-0"><span>Simplon Voyages</span></p>
+                    <p>Adresse 1<br>CP Ville<br>France</p>
                 </div>
             </div>
-            <div class="col-6 text-right font-weight-bold">
-                <a href="" class="d-block my-2">Accueil</a>
-                <a href="" class="d-block my-2">Destinations</a>
-                <a href="" class="d-block my-2">Contact</a>
+            <div class="row flex-column text-center mt-sm-4">
+                <p class="font-weight-bold mb-2">Mentions légales</p>
+                <p>Copyright <span>2020 Simplon</span></p>
             </div>
-            <div class="col text-center my-4">
-                <p class="mb-2"><span>Simplon Voyages</span></p>
-                <p>Adresse 1<br>CP Ville<br>France</p>
-            </div>
-        </div>
-        <div class="row flex-column text-center">
-            <p class="font-weight-bold mb-2">Mentions légales</p>
-            <p>Copyright <span>2020 Simplon</span></p>
         </div>
     </footer>
 
