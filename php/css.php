@@ -1,6 +1,6 @@
 <!-- Reset CSS -->
-<link rel="stylesheet" href=".\css\reset.css">
+<link rel="stylesheet" href="/simplon-voyage/css/reset.css">
 <!-- Own CSS -->
-<link rel="stylesheet" href=".\css\color.css">
-<link rel="stylesheet" href=".\css\backgrounds.css">
-<link rel="stylesheet" href=".\css\style.css">
+<link rel="stylesheet" href="/simplon-voyage/css/color.css">
+<link rel="stylesheet" href="/simplon-voyage/css/backgrounds.css">
+<link rel="stylesheet" href="/simplon-voyage/css/style.css">

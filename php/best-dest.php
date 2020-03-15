@@ -1,7 +1,7 @@
 <div class="container mt-sm-5">
         <h2 class="my-4">Meilleures destinations<i class="fas fa-chevron-right ml-2"></i></h2>
         <div class="card-deck">
-            <a class="card city-card best-dest1" href="london.php">
+            <a class="card city-card best-dest1" href="/simplon-voyage/php/london.php">
                 <div class="">
                     <p>Londres</p>
                     <p class="price">€€€</p>

@@ -16,9 +16,9 @@
                     </div>
                 </div>
                 <div class="col-6 col-sm-4 text-right text-sm-center font-weight-bold">
-                    <a href="\" class="d-block my-2">Accueil</a>
-                    <a href="\php\destinations.php" class="d-block my-2">Destinations</a>
-                    <a href="\php\contact.php" class="d-block my-2">Contact</a>
+                    <a href="/simplon-voyage/index.php" class="d-block my-2">Accueil</a>
+                    <a href="/simplon-voyage/php/destinations.php" class="d-block my-2">Destinations</a>
+                    <a href="/simplon-voyage/php/contact.php" class="d-block my-2">Contact</a>
                 </div>
                 <div class="col col-sm-4 text-center text-sm-right my-4 my-sm-1">
                     <p class="mb-2 mb-sm-0"><span>Simplon Voyages</span></p>

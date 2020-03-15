@@ -9,13 +9,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-sm-auto align-items-baseline">
                     <li class="nav-item">
-                        <a class="nav-link" href="\"><span class="sr-only">(current)</span>Accueil</a>
+                        <a class="nav-link" href="/simplon-voyage/index.php"><span class="sr-only">(current)</span>Accueil</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="\php\destinations.php">Destinations</a>
+                        <a class="nav-link" href="/simplon-voyage/php/destinations.php">Destinations</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link contact-btn px-3" href="\php\contact.php">Contact</a>
+                        <a class="nav-link contact-btn px-3" href="/simplon-voyage/php/contact.php">Contact</a>
                     </li>
                     <li class="nav-item">
                         <span class="nav-link"><i class="fas fa-phone-alt mr-2"></i>03.24.03.04.05</span>
