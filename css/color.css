@@ -6,7 +6,8 @@ nav,
 
 footer,
 .card .price,
-.choose-us .fa {
+.choose-us .fa,
+h3 {
     background-color: #2F343A !important;
 }
 
@@ -29,8 +30,14 @@ h3 {
     color: white !important;
 }
 
+.contact-btn:hover,
 footer i,
 footer span,
-h2 {
+h2,
+h4 {
     color: #FF7550 !important;
+}
+
+.contact-btn:hover {
+    background-color: white;
 }

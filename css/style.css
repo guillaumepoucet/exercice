@@ -4,6 +4,10 @@ body {
     letter-spacing: 0.02em;
 }
 
+.line-height {
+    line-height: 1.25em;
+}
+
 h1 {
     font-family: cooper-black-std, serif !important;
     font-weight: 400 !important;
@@ -47,8 +51,9 @@ button {
     font-size: 27px !important;
 }
 
-h2 i {
-    font-size: 14pxd;
+h2 i,
+a i {
+    font-size: 14px;
 }
 
 .card {
@@ -73,20 +78,7 @@ h2 i {
     right: 0px;
 }
 
-.cc1 {
-    background-image: url(../assets/img/city/london/big-ben-bridge-castle-city-460672.jpg);
-}
-
-.cc2 {
-    background-image: url(../assets/img/index-cover.jpg);
-}
-
-.cc3 {
-    background-image: url(../assets/img/destination_cover.jpg);
-}
-
 .parallax {
-    background-image: url(../assets/img/index_parallax.jpg);
     background-position: center;
     background-size: cover;
     height: 260px;
@@ -119,17 +111,81 @@ footer {
 }
 
 @media (min-width: 768px) {
-    .contact-btn {
-        border: 2px solid white;
-        border-radius: 5px;
-    }
-
-    .carousel-item {
+    .carousel-item,
+    .dest-back-img {
         background-position: center;
         background-size: cover;
         height: 400px;
     }
+    .carousel-item img {
+        display: none !important;
+    }
+    .position {
+        position: relative;
+    }
+    .position>div {
+        position: absolute;
+        bottom: 5px;
+        right: -15px;
+    }
+    .card {
+        height: 140px;
+    }
+}
 
+@media (min-width: 992px) {
+    nav li {
+        margin-left: 20px;
+    }
+    .contact-btn {
+        border: 2px solid white;
+        border-radius: 5px;
+        transition: color 0.5s, background-color 0.5s;
+    }
+    .carousel-item {
+        height: 650px;
+    }
+    .card {
+        height: 190px;
+    }
+    .parallax-index {
+        height: 500px;
+    }
+    .carousel-item,
+    .dest-back-img {
+        height: 500px;
+    }
+}
+
+.best-dest1 {
+    background-image: url(../assets/img/city/london/big-ben-bridge-castle-city-460672.jpg);
+}
+
+.best-dest2 {
+    background-image: url(../assets/img/index-cover.jpg);
+}
+
+.best-dest3 {
+    background-image: url(../assets/img/destination_cover.jpg);
+}
+
+.parallax-index {
+    background-image: url(../assets/img/index_parallax.jpg);
+}
+
+.destinations {
+    background-image: url(../assets/img/destination_cover.jpg);
+}
+
+.parallax-dest {
+    background-image: url(../assets/img/destinations_parallax.jpg);
+}
+
+.london {
+    background-image: url(../assets/img/city/london/big-ben-bridge-castle-city-460672.jpg);
+}
+
+@media (min-width: 768px) {
     .carousel1 {
         background-image: url(../assets/img/index-cover.jpg);
     }
@@ -141,30 +197,5 @@ footer {
     .carousel3 {
         background-image: url(../assets/img/destinations_parallax.jpg);
         background-position: bottom;
-    }
-
-    .carousel-item img {
-        display: none !important;
-    }
-
-    .position {
-        position: relative;
-    }
-
-    .position>div {
-        position: absolute;
-        bottom: 5px;
-        right: -15px;
-    }
-
-    .card {
-        height: 140px;
-    }
-}
-
-@media (min-width: 992px) {
-    .contact-btn {
-        border: 2px solid white;
-        border-radius: 5px;
     }
 }
