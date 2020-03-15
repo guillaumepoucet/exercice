@@ -7,8 +7,8 @@
     <title>Simplon Voyage</title>
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Source+Sans+Pro&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Source+Sans+Pro&display=swap" rel="stylesheet">    
+
     <!-- Adobe Font -->
     <link rel="stylesheet" href="https://use.typekit.net/cbv0kwq.css">
 
@@ -22,6 +22,13 @@
     <link rel="stylesheet" href="../css/color.css">
     <link rel="stylesheet" href="../css/style.css">
 
+    <!-- jQuery -->
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+
+    <!-- Fotorama -->
+    <link href="../css/fotorama.css" rel="stylesheet">
+    <script src="../js/fotorama.js"></script>
+
     <!-- Fontawesome -->
     <script src="https://kit.fontawesome.com/839df3b8b1.js"></script>
 </head>
@@ -31,11 +38,11 @@
     <?php include 'nav.php' ?>
 
     <div class="dest-back-img london"></div>
-    <div class="container">
+    <div class="container mt-sm-5" style="position:relative;">
         <h3>Londres</h3>
         <h2 class="my-4">Entre tradition et excentricité</h2>
         <div class="row">
-            <div class="col-sm-6 line-height">
+            <div class="col-sm-6 line-height city-desc">
                 <p>Londres est divisée en de nombreux quartiers, appelés districts. Les quartiers les plus célèbres sont
                     ceux du
                     centre de la ville. Autour de ce grand centre-ville se trouve un grand nombre de banlieues et de
@@ -58,8 +65,8 @@
                     Londres)
                     abrite le quartier des affaires (c'est le principal quartier financier).</p>
             </div>
-            <div class="col-sm-3 offset-sm-2">
-                <h4 class="mb-4">Voir aussi</h4>
+            <div class="col-sm-3 offset-sm-2 align-self-center">
+                <h4 class="mb-4 font-weight-bold">Voir aussi</h4>
                 <div class="d-flex flex-column line-height">
                     <a href="">Time Out London<i class="fas fa-chevron-right ml-2"></i></a>
                     <a href="">Le Guide Du Routard Londres<i class="fas fa-chevron-right ml-2"></i></a>
@@ -68,6 +75,21 @@
             </div>
         </div>
     </div>
+
+    <!-- Fotorama -->
+    <div class="container mt-sm-5 d-flex justify-content-center">
+        <div class="fotorama" data-width="800" data-nav="thumbs" data-arrows="true" data-click="true"
+            data-swipe="true" data-trackpad="true" data-allowfullscreen="true">
+            <a href="..\assets\img\city\london\city-sky-people-bridge-34629.jpg"><img
+                    src="..\assets\img\city\london\london-thumbnail.jpg"></a>
+            <a href="..\assets\img\city\london\city-sky-people-bridge-34629.jpg"><img
+                    src="..\assets\img\city\london\london-thumbnail.jpg"></a>
+            <a href="..\assets\img\city\london\city-sky-people-bridge-34629.jpg"><img
+                    src="..\assets\img\city\london\london-thumbnail.jpg"></a>
+        </div>
+    </div>
+
+    <?php include 'best-dest.php' ?>
 
     <?php include 'choose-us.php' ?>
 

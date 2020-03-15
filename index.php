@@ -7,8 +7,8 @@
     <title>Simplon Voyage</title>
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Source+Sans+Pro&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Source+Sans+Pro&display=swap" rel="stylesheet">    
+
     <!-- Adobe Font -->
     <link rel="stylesheet" href="https://use.typekit.net/cbv0kwq.css">
 
@@ -69,22 +69,22 @@
 
     <?php include 'php/best-dest.php' ?>
 
-    <div class="container mt-sm-5 d-none d-sm-block">
+    <div class="container my-sm-5 pb-sm-4 d-none d-sm-block">
         <h2 class="my-4">Destinations à la mode<i class="fas fa-chevron-right ml-2"></i></h2>
         <div class="card-deck">
-            <div class="card best-dest1 mb-sm-5">
+            <div class="card city-card best-dest1 mb-sm-5">
                 <div class="">
                     <p>Londres</p>
                     <p class="price">€€€</p>
                 </div>
             </div>
-            <div class="card best-dest2">
+            <div class="card city-card best-dest2">
                 <div class="">
                     <p>Kyoto</p>
                     <p class="price">€€€</p>
                 </div>
             </div>
-            <div class="card best-dest3">
+            <div class="card city-card best-dest3">
                 <div class="">
                     <p>New-York</p>
                     <p class="price">€€€</p>
@@ -92,19 +92,19 @@
             </div>
         </div>
         <div class="card-deck">
-            <div class="card best-dest1">
+            <div class="card city-card best-dest1">
                 <div class="">
                     <p>Londres</p>
                     <p class="price">€€€</p>
                 </div>
             </div>
-            <div class="card best-dest2">
+            <div class="card city-card best-dest2">
                 <div class="">
                     <p>Kyoto</p>
                     <p class="price">€€€</p>
                 </div>
             </div>
-            <div class="card best-dest3">
+            <div class="card city-card best-dest3">
                 <div class="">
                     <p>New-York</p>
                     <p class="price">€€€</p>
@@ -114,6 +114,8 @@
     </div>
 
     <div class="parallax parallax-index mt-sm-5"></div>
+
+    <?php include 'php/testimonials.php' ?>
 
     <?php include 'php/choose-us.php' ?>
 

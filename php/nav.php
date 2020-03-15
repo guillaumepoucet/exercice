@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
             <h1 class="navbar-brand my-auto">Simplon Voyages</h1>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -15,7 +15,7 @@
                         <a class="nav-link" href="\php\destinations.php">Destinations</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link contact-btn px-3" href="#">Contact</a>
+                        <a class="nav-link contact-btn px-3" href="\php\contact.php">Contact</a>
                     </li>
                     <li class="nav-item">
                         <span class="nav-link"><i class="fas fa-phone-alt mr-2"></i>03.24.03.04.05</span>

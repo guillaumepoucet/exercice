@@ -1,7 +1,18 @@
-body {
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    font-size: 17px;
+body,
+.test-card {
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 16px;
     letter-spacing: 0.02em;
+}
+
+h2,
+select>option,
+nav li,
+.city-card,
+.city-btn,
+.choose-us,
+footer {
+    font-family: 'Source Sans Pro', sans-serif !important;
 }
 
 .line-height {
@@ -16,25 +27,20 @@ h1 {
 }
 
 h2,
-.card,
+.city-card,
 footer span {
     font-weight: 600;
+}
+
+h2,
+h4 {
+    font-size: 20px;
 }
 
 h2 {
     text-transform: uppercase !important;
 }
 
-h2,
-select>option,
-nav li,
-.test-card,
-.city-card,
-.city-btn,
-.choose-us,
-footer {
-    font-family: 'source-sans-pro', Arial, Helvetica, sans-serif !important;
-}
 
 nav li {
     font-weight: bold;
@@ -56,7 +62,11 @@ a i {
     font-size: 14px;
 }
 
-.card {
+h3 {
+    position: absolute;
+}
+
+.city-card {
     background-position: center;
     background-size: cover;
     height: 170px;
@@ -66,13 +76,13 @@ a i {
     position: relative;
 }
 
-.card p {
+.city-card p {
     padding: 10px;
     position: absolute;
     bottom: 0px;
 }
 
-.card .price {
+.city-card .price {
     padding: 10px 15px;
     position: absolute;
     right: 0px;
@@ -84,6 +94,7 @@ a i {
     height: 260px;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    margin-bottom: 60px;
 }
 
 .choose-us .fa {
@@ -110,12 +121,57 @@ footer {
     line-height: 1.25em;
 }
 
+.form,
+iframe {
+    box-shadow: 0 0 3px #00000075;
+}
+
+.form {
+    background-color: rgb(228, 228, 228);
+}
+
+small {
+    font-size: 12px;
+    padding-top: 2px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+.city-desc p {
+    margin-bottom: 10px;
+}
+
+.test-card {
+    box-shadow: 0 0 15px #2f343a24;
+}
+
+.test-card p {
+    margin: 16px;
+    line-height: 1.25em;
+}
+
+.test-card .card-footer {
+    background-color: white !important;
+    border-top: none; 
+}
+
+.test-card i {
+    font-size: 30px;
+}
+
+.test-card small {
+    font-size: 14px;
+}
+
 @media (min-width: 768px) {
     .carousel-item,
     .dest-back-img {
         background-position: center;
         background-size: cover;
-        height: 400px;
+        height: 450px;
     }
     .carousel-item img {
         display: none !important;
@@ -128,8 +184,14 @@ footer {
         bottom: 5px;
         right: -15px;
     }
-    .card {
+    .city-card {
         height: 140px;
+    }
+    h3 {
+        font-size: 60px;
+        right: 100px;
+        padding: 20px 50px 5px 30px;
+        top: -100px;
     }
 }
 
@@ -140,20 +202,19 @@ footer {
     .contact-btn {
         border: 2px solid white;
         border-radius: 5px;
-        transition: color 0.5s, background-color 0.5s;
+        transition: color 0.2s, background-color 0.5s;
     }
     .carousel-item {
-        height: 650px;
+        height: 750px;
     }
-    .card {
+    .city-card {
         height: 190px;
     }
     .parallax-index {
         height: 500px;
     }
-    .carousel-item,
     .dest-back-img {
-        height: 500px;
+        height: 600px;
     }
 }
 
@@ -183,6 +244,10 @@ footer {
 
 .london {
     background-image: url(../assets/img/city/london/big-ben-bridge-castle-city-460672.jpg);
+}
+
+.contact-img {
+    background-image: url(../assets/img/contact_cover.jpg);
 }
 
 @media (min-width: 768px) {

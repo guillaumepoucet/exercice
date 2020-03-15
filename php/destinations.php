@@ -7,8 +7,8 @@
     <title>Toutes les destinations - Simplon Voyage</title>
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Source+Sans+Pro&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Source+Sans+Pro&display=swap" rel="stylesheet">    
+
     <!-- Adobe Font -->
     <link rel="stylesheet" href="https://use.typekit.net/cbv0kwq.css">
 
@@ -35,19 +35,19 @@
     <div class="container mt-sm-5 d-none d-sm-block">
         <h2 class="my-4">Toutes nos destinations<i class="fas fa-chevron-right ml-2"></i></h2>
         <div class="card-deck mb-sm-5">
-            <a class="card best-dest1" href="london.php">
+            <a class="card city-card best-dest1" href="london.php">
                 <div class="">
                     <p>Londres</p>
                     <p class="price">€€€</p>
                 </div>
             </a>
-            <div class="card best-dest2">
+            <div class="card city-card best-dest2">
                 <div class="">
                     <p>Kyoto</p>
                     <p class="price">€€€</p>
                 </div>
             </div>
-            <div class="card best-dest3">
+            <div class="card city-card best-dest3">
                 <div class="">
                     <p>New-York</p>
                     <p class="price">€€€</p>
@@ -55,19 +55,19 @@
             </div>
         </div>
         <div class="card-deck mb-sm-5">
-            <div class="card best-dest1">
+            <div class="card city-card best-dest1">
                 <div class="">
                     <p>Londres</p>
                     <p class="price">€€€</p>
                 </div>
             </div>
-            <div class="card best-dest2">
+            <div class="card city-card best-dest2">
                 <div class="">
                     <p>Kyoto</p>
                     <p class="price">€€€</p>
                 </div>
             </div>
-            <div class="card best-dest3">
+            <div class="card city-card best-dest3">
                 <div class="">
                     <p>New-York</p>
                     <p class="price">€€€</p>
@@ -75,39 +75,39 @@
             </div>
         </div>
         <div class="card-deck mb-sm-5">
-            <div class="card best-dest1">
+            <div class="card city-card best-dest1">
                 <div class="">
                     <p>Londres</p>
                     <p class="price">€€€</p>
                 </div>
             </div>
-            <div class="card best-dest2">
+            <div class="card city-card best-dest2">
                 <div class="">
                     <p>Kyoto</p>
                     <p class="price">€€€</p>
                 </div>
             </div>
-            <div class="card best-dest3">
+            <div class="card city-card best-dest3">
                 <div class="">
                     <p>New-York</p>
                     <p class="price">€€€</p>
                 </div>
             </div>
         </div>
-        <div class="card-deck mb-sm-5">
-            <div class="card best-dest1">
+        <div class="card-deck mb-sm-5 pb-sm-4">
+            <div class="card city-card best-dest1">
                 <div class="">
                     <p>Londres</p>
                     <p class="price">€€€</p>
                 </div>
             </div>
-            <div class="card best-dest2">
+            <div class="card city-card best-dest2">
                 <div class="">
                     <p>Kyoto</p>
                     <p class="price">€€€</p>
                 </div>
             </div>
-            <div class="card best-dest3">
+            <div class="card city-card best-dest3">
                 <div class="">
                     <p>New-York</p>
                     <p class="price">€€€</p>
@@ -119,6 +119,8 @@
     <div class="parallax parallax-dest"></div>
 
     <?php include 'best-dest.php' ?>
+
+    <?php include 'testimonials.php' ?>
 
     <?php include 'choose-us.php' ?>
 

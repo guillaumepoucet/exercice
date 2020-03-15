@@ -24,7 +24,7 @@ footer,
 footer a,
 .carousel,
 .city-btn,
-.card,
+.city-card,
 .choose-us .fa,
 h3 {
     color: white !important;
@@ -34,10 +34,16 @@ h3 {
 footer i,
 footer span,
 h2,
-h4 {
+h4,
+.test-card i {
     color: #FF7550 !important;
 }
 
 .contact-btn:hover {
     background-color: white;
+}
+
+.form-control:focus {
+    border-color: #ff755012;
+    box-shadow: 0 0 0 0.2rem #FFE0B2;
 }
