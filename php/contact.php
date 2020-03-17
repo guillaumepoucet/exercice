@@ -34,16 +34,16 @@
     <div class="container">
         <div class="row my-5">
             <div class="col-sm-4 offset-sm-2">
-                <h2 class="mt-sm-2 mb-sm-4">Nous rendre visite</h2>
+                <h2 class="mt-sm-2 mb-sm-4 my-4">Nous rendre visite</h2>
                 <div class="line-height">
                     <p class=" mb-sm-3">Besoin d'un conseil pour planifier vos prochaines vacances ?</p>
                     <p class=" mb-sm-4">Nous serons ravis de vous accueillir dans notre agence afin de
                         satisfaire aux mieux vos
                         souhaits.</p>
-                    <p class="mb-2 font-weight-bold text-center"><i class="fas fa-map-marker-alt mr-2"></i>Simplon
+                    <p class="mt-3 mt-sm-0 mb-2 font-weight-bold text-center"><i class="fas fa-map-marker-alt mr-2"></i>Simplon
                         Voyages</p>
                     <p class="mb-2 ml-sm-4 text-center">Adresse 1<br>CP Ville<br></p>
-                    <p class="text-center"><i class="fas fa-phone-alt mr-2"></i>03.24.03.04.05</p>
+                    <p class="text-center mb-4 mb-sm-0"><i class="fas fa-phone-alt mr-2"></i>03.24.03.04.05</p>
                 </div>
             </div>
             <div class="col-sm-4 offset-sm-1">
@@ -52,10 +52,10 @@
         </div>
     </div>
     <div class="form">
-        <div class="container py-5">
+        <div class="container pt-3 py-sm-5">
             <div class="row justify-content-center">
-                <form action="POST" class="col-sm-6 mt-4">
-                    <h2 class="mb-sm-5 text-center">Nous contacter</h2>
+                <form action="POST" class="col-sm-6 mt-sm-4">
+                    <h2 class="my-4 mb-sm-5 text-center">Nous contacter</h2>
                     <div class="form-row">
                         <div class="form-group col-md-6">
                             <label for="inputLastname">Nom</label>

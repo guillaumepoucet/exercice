@@ -1,5 +1,5 @@
 <div class="container">
-        <h2 class="my-5">Les derniers avis destinations</h2>
+        <h2 class="my-5 text-center text-sm-left">Les derniers avis destinations</h2>
         <div class="card-deck text-center pb-3">
             <div class="card test-card">
                 <div class="card-body">

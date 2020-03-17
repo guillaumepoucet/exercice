@@ -7,7 +7,8 @@
     <title>Simplon Voyage</title>
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Source+Sans+Pro&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Source+Sans+Pro&display=swap"
+        rel="stylesheet">
 
     <!-- Adobe Font -->
     <link rel="stylesheet" href="https://use.typekit.net/cbv0kwq.css">
@@ -16,7 +17,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <?php include 'php/css.php' ?>
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- Own CSS -->
+    <link rel="stylesheet" href="css/color.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <!-- Fontawesome -->
     <script src="https://kit.fontawesome.com/839df3b8b1.js"></script>
@@ -24,7 +29,7 @@
 
 <body>
 
-    <?php include 'php\nav.php' ?>
+    <?php include 'php/nav.php' ?>
 
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
