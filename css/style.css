@@ -183,24 +183,34 @@ label {
     border: 2px solid #FF7550 !important;
 }
 
+.carousel-item {
+    position: relative;
+}
+
+.pastille {
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    background-color: #FF7550;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 10px #00000057
+}
+
+.pastille p {
+    text-align: center;
+}
+
 @media (min-width: 768px) {
-    .carousel1 {
-        background-image: url(../assets/img/pastille.png), url(../assets/img/index-cover.jpg);
-    }
-
-    .carousel2 {
-        background-image: url(../assets/img/pastille.png), url(../assets/img/destination_cover.jpg);
-    }
-
-    .carousel3 {
-        background-image: url(../assets/img/pastille.png), url(../assets/img/destinations_parallax.jpg);
-    }
     .carousel-item,
     .dest-back-img {
-        background-position: 25rem, center;
-        background-size:15%, cover;
-        height: auto, 450px;
-        background-repeat: no-repeat, no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 450px;
     }
     .carousel-item img {
         display: none !important;
@@ -222,6 +232,12 @@ label {
         top: -100px;
         right: 75px;
         left: auto;
+    }
+    .pastille {
+        left: 15%;
+        height: 150px;
+        width: 150px;
+        font-size: 24px;
     }
 }
 
@@ -256,6 +272,12 @@ label {
     .dest-back-img {
         height: 600px;
     }
+    .pastille {
+        top: 40%;
+        left: 20%;
+        height: 160px;
+        width: 160px;
+    }
 }
 
 .best-dest1 {
@@ -288,4 +310,19 @@ label {
 
 .contact-img {
     background-image: url(../assets/img/contact_cover.jpg);
+}
+
+@media (min-width: 768px) {
+    .carousel1 {
+        background-image: url(../assets/img/index-cover.jpg);
+    }
+
+    .carousel2 {
+        background-image: url(../assets/img/destination_cover.jpg);
+    }
+
+    .carousel3 {
+        background-image: url(../assets/img/destinations_parallax.jpg);
+        background-position: bottom;
+    }
 }

@@ -39,12 +39,30 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item carousel1 active">
+                <div class="pastille">
+                    <div>
+                        <p>JAPON</p>
+                        <p>€€€</p>
+                    </div>
+                </div>
                 <img src="assets/img/index-cover.jpg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item carousel2">
+                <div class="pastille">
+                    <div>
+                        <p>NEW-YORK</p>
+                        <p>€€€</p>
+                    </div>
+                </div>
                 <img src="assets/img/destination_cover.jpg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item carousel3">
+                <div class="pastille">
+                    <div>
+                        <p>Là-bas</p>
+                        <p>€€€</p>
+                    </div>
+                </div>
                 <img src="assets/img/destinations_parallax.jpg" class="d-block w-100" alt="...">
             </div>
         </div>
