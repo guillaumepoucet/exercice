@@ -79,7 +79,7 @@
     <div class="container mt-4">
         <div class="row position">
             <div class="col col-sm-4 offset-sm-8">
-                <select class="custom-select" id="destination" onchange="location = this.value;" required>
+                <select class="custom-select disabled selected" id="destination" onchange="location = this.value;" required>
                     <option>Votre destination</option>
                     <option value="/simplon-voyage/php/london.php">Londres</option>
                     <option>...</option>
