@@ -66,8 +66,8 @@
                     abrite le quartier des affaires (c'est le principal quartier financier).</p>
             </div>
             <div class="col-sm-3 offset-sm-2 align-self-center">
-                <h4 class="mb-4 font-weight-bold">Voir aussi</h4>
-                <div class="d-flex flex-column line-height">
+                <h4 class="my-3 mb-sm-4 font-weight-bold">Voir aussi</h4>
+                <div class="d-flex flex-column line-height mb-3">
                     <a href="">Time Out London<i class="fas fa-chevron-right ml-2"></i></a>
                     <a href="">Le Guide Du Routard Londres<i class="fas fa-chevron-right ml-2"></i></a>
                     <a href="">Visit London.com<i class="fas fa-chevron-right ml-2"></i></a>

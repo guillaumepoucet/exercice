@@ -32,7 +32,7 @@
     <div class="dest-back-img contact-img"></div>
 
     <div class="container">
-        <div class="row my-5">
+        <div class="row my-sm-5">
             <div class="col-sm-4 offset-sm-2">
                 <h2 class="mt-sm-2 mb-sm-4 my-4">Nous rendre visite</h2>
                 <div class="line-height">
@@ -46,7 +46,7 @@
                     <p class="text-center mb-4 mb-sm-0"><i class="fas fa-phone-alt mr-2"></i>03.24.03.04.05</p>
                 </div>
             </div>
-            <div class="col-sm-4 offset-sm-1">
+            <div class="col-sm-4 offset-sm-1 mb-3 mb-sm-0">
             <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1b7_udp8ynxsl6ZB-ZtZKkglkHKg_hEBu" width="100%" height="480"></iframe>
             </div>
         </div>
@@ -92,6 +92,7 @@
                             <textarea class="form-control" id="inputMessage" rows="6" name="Message"></textarea>
                         </div>
                     </div>
+                    <button type="submit" class="btn col-12 submit-btn mb-3">Envoyer</button>
                 </form>
             </div>
         </div>

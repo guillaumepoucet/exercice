@@ -59,7 +59,7 @@
     </div>
 
     <div class="container mt-4">
-        <div class="position">
+        <div class="row position">
             <div class="col col-sm-4 offset-sm-8">
                 <select class="custom-select" id="destination" required>
                     <option selected disabled value="">Votre destination</option>

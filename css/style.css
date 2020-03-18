@@ -11,7 +11,8 @@ nav li,
 .city-card,
 .city-btn,
 .choose-us,
-footer {
+footer
+.submit-btn {
     font-family: 'Source Sans Pro', sans-serif !important;
 }
 
@@ -34,7 +35,7 @@ footer span {
 
 h2,
 h4 {
-    font-size: 20px;
+    font-size: 20px !important;
 }
 
 h2 {
@@ -58,12 +59,18 @@ button {
 }
 
 h2 i,
-a i {
-    font-size: 14px;
+a i,
+.submit-btn {
+    font-size: 14px !important;
 }
 
 h3 {
     position: absolute;
+    width: 100%;
+    left: 0px;
+    top: -71px;
+    font-size: 26px;
+    padding: 15px;
 }
 
 .city-card {
@@ -121,6 +128,12 @@ footer {
     line-height: 1.25em;
 }
 
+.dest-back-img {
+    background-position: center;
+    background-size: cover;
+    height: 250px;;
+}
+
 .form,
 iframe {
     box-shadow: 0 0 3px #00000075;
@@ -166,6 +179,10 @@ label {
     font-size: 14px;
 }
 
+.submit-btn {
+    border: 2px solid #FF7550 !important;
+}
+
 @media (min-width: 768px) {
     .carousel-item,
     .dest-back-img {
@@ -182,16 +199,17 @@ label {
     .position>div {
         position: absolute;
         bottom: 5px;
-        right: -15px;
     }
     .city-card {
         height: 140px;
     }
     h3 {
+        width: fit-content;
         font-size: 60px;
-        right: 100px;
         padding: 20px 50px 5px 30px;
         top: -100px;
+        right: 75px;
+        left: auto;
     }
 }
 
@@ -199,6 +217,16 @@ label {
     nav li {
         margin-left: 20px;
     }
+    li a {
+        margin-left: 8px !important;
+        margin-right: 8px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .underline a:hover {
+        border-bottom: 2px solid white !important;
+    }
+
     .contact-btn {
         border: 2px solid white;
         border-radius: 5px;

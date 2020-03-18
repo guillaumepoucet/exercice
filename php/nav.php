@@ -8,11 +8,11 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-sm-auto align-items-baseline">
-                <li class="nav-item">
+                <li class="nav-item underline">
                     <a class="nav-link" href="/simplon-voyage/index.php"><span
                             class="sr-only">(current)</span>Accueil</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item underline">
                     <a class="nav-link" href="/simplon-voyage/php/destinations.php">Destinations</a>
                 </li>
                 <li class="nav-item">

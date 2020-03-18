@@ -32,7 +32,7 @@
 
     <div class="dest-back-img destinations"></div>
 
-    <div class="container mt-sm-5 d-none d-sm-block">
+    <div class="container mt-sm-5">
         <h2 class="my-4">Toutes nos destinations<i class="fas fa-chevron-right ml-2"></i></h2>
         <div class="card-deck mb-sm-5">
             <a class="card city-card best-dest1" href="/simplon-voyage/php/london.php">
