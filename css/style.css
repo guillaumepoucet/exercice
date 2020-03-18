@@ -184,11 +184,23 @@ label {
 }
 
 @media (min-width: 768px) {
+    .carousel1 {
+        background-image: url(../assets/img/pastille.png), url(../assets/img/index-cover.jpg);
+    }
+
+    .carousel2 {
+        background-image: url(../assets/img/pastille.png), url(../assets/img/destination_cover.jpg);
+    }
+
+    .carousel3 {
+        background-image: url(../assets/img/pastille.png), url(../assets/img/destinations_parallax.jpg);
+    }
     .carousel-item,
     .dest-back-img {
-        background-position: center;
-        background-size: cover;
-        height: 450px;
+        background-position: 25rem, center;
+        background-size:15%, cover;
+        height: auto, 450px;
+        background-repeat: no-repeat, no-repeat;
     }
     .carousel-item img {
         display: none !important;
@@ -276,19 +288,4 @@ label {
 
 .contact-img {
     background-image: url(../assets/img/contact_cover.jpg);
-}
-
-@media (min-width: 768px) {
-    .carousel1 {
-        background-image: url(../assets/img/index-cover.jpg);
-    }
-
-    .carousel2 {
-        background-image: url(../assets/img/destination_cover.jpg);
-    }
-
-    .carousel3 {
-        background-image: url(../assets/img/destinations_parallax.jpg);
-        background-position: bottom;
-    }
 }
