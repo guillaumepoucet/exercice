@@ -11,8 +11,7 @@ nav li,
 .city-card,
 .city-btn,
 .choose-us,
-footer
-.submit-btn {
+footer .submit-btn {
     font-family: 'Source Sans Pro', sans-serif !important;
 }
 
@@ -131,7 +130,8 @@ footer {
 .dest-back-img {
     background-position: center;
     background-size: cover;
-    height: 250px;;
+    height: 250px;
+    ;
 }
 
 .form,
@@ -162,13 +162,12 @@ label {
 }
 
 .test-card p {
-    margin: 16px;
     line-height: 1.25em;
 }
 
 .test-card .card-footer {
     background-color: white !important;
-    border-top: none; 
+    border-top: none;
 }
 
 .test-card i {
@@ -181,6 +180,16 @@ label {
 
 .submit-btn {
     border: 2px solid #FF7550 !important;
+}
+
+.carousel-inner:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(180deg, rgba(60,60,60,0.5046393557422969) 0%, rgba(255, 255, 255, 0) 39%);    z-index: 1;
 }
 
 .carousel-item {
@@ -206,25 +215,39 @@ label {
 }
 
 @media (min-width: 768px) {
+    nav.start {
+        background-color: transparent;
+        transition: background-color 0.2s, height 0.2s, color 0.2s;
+    }
+
+    nav.finish {
+        transition: background-color 0.2s, height 0.2s, color 0.2s;
+    }
+
     .carousel-item,
     .dest-back-img {
         background-position: center;
         background-size: cover;
         height: 450px;
     }
+
     .carousel-item img {
         display: none !important;
     }
+
     .position {
         position: relative;
     }
+
     .position>div {
         position: absolute;
         bottom: 5px;
     }
+
     .city-card {
         height: 140px;
     }
+
     h3 {
         width: fit-content;
         font-size: 60px;
@@ -233,6 +256,7 @@ label {
         right: 75px;
         left: auto;
     }
+
     .pastille {
         left: 15%;
         height: 150px;
@@ -245,14 +269,39 @@ label {
     nav li {
         margin-left: 20px;
     }
+
     li a {
         margin-left: 8px !important;
         margin-right: 8px !important;
         padding-left: 0px !important;
         padding-right: 0px !important;
     }
-    .underline a:hover {
-        border-bottom: 2px solid white !important;
+
+    .underline a {
+        position: relative;
+        color: white;
+        text-decoration: none;
+    }
+
+    .underline a:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        bottom: 2px;
+        left: 0;
+        background-color: white;
+        visibility: hidden;
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        -webkit-transition: all 0.3s ease-in-out 0s;
+        transition: all 0.3s ease-in-out 0s;
+    }
+
+    .underline a:hover:before {
+        visibility: visible;
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
     }
 
     .contact-btn {
@@ -260,23 +309,31 @@ label {
         border-radius: 5px;
         transition: color 0.2s, background-color 0.5s;
     }
+
     .carousel-item {
         height: 750px;
     }
+
     .city-card {
         height: 190px;
     }
+
     .parallax-index {
         height: 500px;
     }
+
     .dest-back-img {
         height: 600px;
     }
+
     .pastille {
         top: 40%;
         left: 20%;
         height: 160px;
         width: 160px;
+    }
+    .test-card p {
+        margin: 16px;
     }
 }
 
