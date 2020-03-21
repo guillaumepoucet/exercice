@@ -79,9 +79,9 @@
     <div class="container mt-4">
         <div class="row position">
             <div class="col col-sm-4 offset-sm-8">
-                <select class="custom-select" id="destination" required>
-                    <option selected disabled value="">Votre destination</option>
-                    <option>Londres</option>
+                <select class="custom-select" id="destination" onchange="location = this.value;" required>
+                    <option selected disabled>Votre destination</option>
+                    <option value="php/london.php">Londres</option>
                     <option>...</option>
                     <option>...</option>
                     <option>...</option>
